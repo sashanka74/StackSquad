@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Profiles & Video</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fa;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    /* Video styling */
+    video {
+      display: block;
+      margin: 20px auto;
+      max-width: 80%;
+      border: 3px solid #1aff00;
+      border-radius: 10px;
+    }
+
+    /* Profile section */
+    .profiles {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card figcaption {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .card figcaption div {
+      margin: 4px 0;
+    }
+
+    b {
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video section -->
+  <h1>Introduction Video</h1>
+  <video controls width="450px">
+    <source src="../AutoPage/Assets/14048948_3840_2160_24fps.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Team Profiles -->
+  <h1>Development Team</h1>
+  <div class="profiles">
+
+    <div class="card">
+      <img src="../AutoPage/Assets/Nani.jpg" alt="Nani">
+      <figcaption>
+        <div><b>Name:</b> Nani</div>
+        <div><b>Role:</b> Jr. Developer</div>
+        <div><b>Email:</b> Nani@gmail.com</div>
+      </figcaption>
+    </div>
+
+    <div class="card">
+      <img src="../AutoPage/Assets/Sashank.jpg" alt="Sashank">
+      <figcaption>
+        <div><b>Name:</b> Sashank</div>
+        <div><b>Role:</b> Data Analyst</div>
+        <div><b>Email:</b> sashank123@gmail.com</div>
+      </figcaption>
+    </div>
+
+    <div class="card">
+      <img src="../AutoPage/Assets/Abhi.jpg" alt="Abhi">
+      <figcaption>
+        <div><b>Name:</b> Abhi</div>
+        <div><b>Role:</b> Web Developer</div>
+        <div><b>Email:</b> Abhi@gmail.com</div>
+      </figcaption>
+    </div>
+
+    <div class="card">
+      <img src="../AutoPage/Assets/Teja.webp" alt="Teja">
+      <figcaption>
+        <div><b>Name:</b> Teja</div>
+        <div><b>Role:</b> Backend Developer</div>
+        <div><b>Email:</b> Sreeya143@gmail.com</div>
+      </figcaption>
+    </div>
+
+  </div>
+
+</body>
+</html>
